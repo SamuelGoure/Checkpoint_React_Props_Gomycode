@@ -1,9 +1,10 @@
 function Profile(props) {
   return (
-    <div>
-      <h1>Je suis un composant de fonction</h1>
+    <div className="">
       <h1>{props.fullName} </h1>
-      <h1>{props.bio} </h1>
+      <p>{props.bio} </p>
+      <h1> {props.profession} </h1>
+      {props.children}
     </div>
   );
 }

@@ -1,0 +1,16 @@
+*{
+    background-color: #808080;
+}
+.App{
+    margin-top: 20px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    padding: 30px;
+    background-color:  blue;
+}
+
+img{
+    width: 30%;
+    justify-content: ;
+}
+
